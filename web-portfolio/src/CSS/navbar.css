@@ -1,0 +1,69 @@
+/* ---------------------------------------------------------------- header ----------------------------------------------------------------- */
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  user-select: none;
+}
+
+/* --------------------------- hamburger menu animation --------------------------- */
+
+.hamburger {
+  fill: var(--clr-primary-black);
+}
+
+.hamburger-menu {
+    border: none;
+    user-select: none;
+    cursor: pointer;
+  }
+
+  .menu-expanded {
+    z-index: 20;
+    background-color: var(--clr-ultra-black);
+  }
+
+  .menu-expanded .hamburger {
+    fill: var(--clr-white);
+  }
+  
+  .hamburger-menu .line {
+    transition: 
+    y 300ms ease-in 300ms,
+    rotate 300ms ease-in;
+    transform-origin: center;
+  }
+  
+  .menu-expanded .line {
+    transition: 
+    y 300ms ease-in,
+    rotate 300ms ease-in 300ms;
+  }
+  
+  .menu-expanded :is(.top, .bottom) {
+    y: 45;
+  }
+  
+  .menu-expanded .top {
+    rotate: 45deg;
+  }
+  
+  .menu-expanded .bottom {
+    rotate: -45deg;
+  }
+  
+  /* --------------------------- down arrow animation --------------------------- */
+  
+  .down-arrow {
+    animation: hop 2s ease-in-out infinite;
+  }
+  
+  @keyframes hop {
+    0%    {transform: translateY(0)   }
+    50%   {transform: translateY(1rem)}
+    100%  {transform: translateY(0)   }
+  }

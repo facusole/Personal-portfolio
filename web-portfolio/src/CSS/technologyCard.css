@@ -1,0 +1,11 @@
+.technology-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding-block: 1rem;
+    width: 16rem;
+    user-select: none;
+    user-select: none;
+}

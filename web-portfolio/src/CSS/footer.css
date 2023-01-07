@@ -1,0 +1,105 @@
+.footer-container {
+    background-color: var(--clr-ultra-black);
+    padding-inline: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.footer-title {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer-main-title {
+    font-size: var(--fs-menu-title-mobile);
+}
+
+.footer-mail {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    user-select: none;
+    font-size: var(--fs-xs);
+}
+
+:is(.footer-menu, .footer-media, .footer-links) {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+}
+
+:is(.footer-mail, .footer-button-top, .footer-container) {
+    color: var(--clr-white);
+}
+
+:is(.footer-link, .footer-link>a) {
+    color: var(--clr-white);
+}
+
+.footer-links {
+    list-style: none;
+    text-decoration: none;
+    font-size: var(--fs-xs);
+}
+
+:is(.footer-mail, .footer-link, .footer-button-top) {
+    cursor: pointer;
+    transition: .3s ease-in;
+}
+
+.footer-back { 
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-top: 2rem;
+}
+
+.footer-button-top {
+    display: flex;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+/* ----------------- hover -------------- */
+
+:is(.footer-mail, .footer-link, .footer-button-top, .footer-link>a):is(:hover, :focus) {
+    scale: 1.05;
+    translate: .5rem;
+    color: var(--clr-secondary-footer);
+}
+
+/* -------------------------------- Media Queries -------------------------------- */
+
+@media (min-width: 1080px) {
+    .footer-container {
+        padding: 7rem;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer-main-title {
+        font-size: var(--fs-xxl);
+    }
+
+    :is(.footer-mail, .footer-links, .footer-back) {
+        font-size: var(--fs-m);
+    }
+
+    .footer-nav {
+        gap: 10rem;
+    }
+
+    .footer-link {
+        color: var(--clr-white);
+    }
+}
