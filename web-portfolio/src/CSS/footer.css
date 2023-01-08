@@ -106,10 +106,11 @@
     }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1020px) {
     .footer-container {
         padding: 7rem;
         flex-direction: row;
+        flex-wrap: nowrap;
         justify-content: space-between;
     }
 
@@ -127,7 +128,7 @@
     }
 
     .footer-nav {
-        gap: 10rem;
+        gap: 8rem;
     }
 
     .footer-link {
