@@ -193,7 +193,7 @@ button {
   color: var(--clr-primary-purple);
   border: 2px solid var(--clr-primary-purple);
   box-shadow: 3px 3px var(--clr-primary-purple);
-  scale: .9;
+  scale: .95;
 }
 
 
