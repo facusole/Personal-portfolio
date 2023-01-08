@@ -3,7 +3,6 @@
     text-transform: uppercase;
     display: flex;
     align-items: center;
-    padding-bottom: 1.5rem;
 }
 
 .section-divider::before {
@@ -13,11 +12,4 @@
     height: 2px;
     background-color: var(--clr-primary-purple);
     margin-right: 1.5rem;
-}
-
-
-@media (min-width: 1080px) {
-    .section-divider {
-        padding-bottom: 0%;
-    }
 }

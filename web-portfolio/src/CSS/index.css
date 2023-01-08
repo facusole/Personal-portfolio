@@ -173,6 +173,7 @@ button {
 }
 
 .main-button {
+  font-size: var(--fs-xs);
   border: 2px solid var(--clr-ultra-black);
   padding: 1rem 3.5rem;
   box-shadow: 3px 3px var(--clr-ultra-black);
@@ -195,3 +196,9 @@ button {
   scale: .9;
 }
 
+
+@media (min-width: 1080px) { 
+  .main-button {
+    font-size: var(--fs-m);
+  }
+}

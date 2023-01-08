@@ -15,7 +15,7 @@ export default function Technologies() {
             <div className="technologies-flex-container">
                 <div className="technologies-introduction">
                     <div className='reset'><Divider subtitle={"What I work with"} /></div>
-                    <h2 className="section-title fw-medium ff-heading">Technologies</h2>
+                    <h2 className="section-title tech-section-title fw-medium ff-heading">Technologies</h2>
                     <div className="technologies-explanation fw-light">
                         <p>I usually work with HTML5, CSS3, JavaScript and React, but I love learning new technologies along the way!</p>
                         <br/>
