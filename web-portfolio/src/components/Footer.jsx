@@ -26,7 +26,7 @@ export default function Footer({scrollToTop, scrollToTop2, scrollToProjects}) {
                     <ul className="footer-links">
                         <li className="footer-link"><a href="https://www.linkedin.com/in/facundo-solé-563305244/" target='_blank'>Linkedin</a></li>
                         <li className="footer-link"><a href="https://github.com/facusole" target='_blank'>Github</a></li>
-                        <li className="footer-link"><a href={CV} download='Facund Solé CV' target='_blank'>Resume</a></li>
+                        <li className="footer-link"><a href={CV} download='Facundo Solé CV' target='_blank'>Resume</a></li>
                     </ul>
                 </div>
             </div>
