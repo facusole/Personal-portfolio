@@ -152,6 +152,9 @@ html:focus-within {
 .mg-inline      {   margin-inline: 1rem;  }
 .padding-block  {   padding-block: 2.5rem;}
 
+@media (min-width: 720px) {
+  .mg-inline {   margin-inline: 3rem;    }
+}
 @media (min-width: 1080px) {
   .mg-inline {   margin-inline: 7rem;    }
 }
@@ -197,7 +200,7 @@ button {
 }
 
 
-@media (min-width: 1080px) { 
+@media (min-width: 720px) { 
   .main-button {
     font-size: var(--fs-m);
   }

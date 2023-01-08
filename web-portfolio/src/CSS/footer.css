@@ -80,6 +80,32 @@
 
 /* -------------------------------- Media Queries -------------------------------- */
 
+@media (min-width: 720px) {
+    .footer-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 8rem;
+    }
+
+    :is(.footer-mail, .footer-links, .footer-back) {
+        font-size: var(--fs-m);
+    }
+
+    .footer-nav {
+        gap: 10rem;
+    }
+
+    .footer-link {
+        color: var(--clr-white);
+    }
+
+    .footer-back {
+        margin-top: -5rem;
+        margin-left: 35rem;
+        font-size: var(--fs-xs);
+    }
+}
+
 @media (min-width: 1080px) {
     .footer-container {
         padding: 7rem;

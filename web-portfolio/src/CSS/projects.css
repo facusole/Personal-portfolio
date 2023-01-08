@@ -34,13 +34,31 @@
     user-select: none;
 }
 
-.projects-link:is(:hover, :focus) {
+.projects-link:is(:hover, :focus, :active) {
     color: var(--clr-primary-purple);
     scale: 1.01;
     translate: .25rem;
 }
 
 /* -------------------------------- Media Queries -------------------------------- */
+
+@media (min-width: 720px) {
+    .section-title {
+        font-size: var(--fs-menu-title-mobile);
+    }
+
+    .projects-section {
+        gap: 3rem;
+    }
+
+    .projects-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+        gap: 2rem;
+        margin: 0;
+    }
+}
 
 @media (min-width: 1080px) {
     .section-title {

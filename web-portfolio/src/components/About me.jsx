@@ -29,7 +29,7 @@ export default function AboutMe({  expandMenu  }) {
             </header>
 
             <main>
-                <section className="about-me-section padding-block">
+                <section className="about-me-section padding-block mg-inline">
 
                     <div className="picture-container"><img src={Me} alt="Facundo Solé picture" className="my-picture" ref={aboutmeRef}/></div>
 

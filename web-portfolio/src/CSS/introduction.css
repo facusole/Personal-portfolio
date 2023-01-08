@@ -32,6 +32,13 @@
 
 /* -------------------------------- Media Queries -------------------------------- */
 
+@media (min-width: 720px) {
+
+    .main-title {
+        font-size: var(--fs-xxl);
+    }
+    
+}
 @media (min-width: 1080px) {
 
     .main-title {

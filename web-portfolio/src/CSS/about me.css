@@ -37,6 +37,39 @@
 
 /* -------------------------------- Media Queries -------------------------------- */
 
+@media (min-width: 720px) {
+
+    .main-title {
+        font-size: var(--fs-xxl);
+    }
+
+    .about-me-section {
+    padding-block: 7rem;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .about-me-info-container {
+        padding-top: 0;
+        width: 58ch;
+    }
+
+    .about-me-name {
+        font-size: var(--fs-l);
+    }
+
+    .about-me-description {
+        display: flex;
+        flex-direction: column;
+        font-size: var(--fs-m);
+    }
+
+    .my-picture {
+        width: max(14rem, 50px);
+    }
+}
+
 @media (min-width: 1080px) {
 
     .main-title {

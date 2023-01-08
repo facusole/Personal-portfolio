@@ -70,13 +70,44 @@
     
 }
 
-:is(.menu-mail, .menu-link, .menu-link>a):is(:hover, :focus) {
+:is(.menu-mail, .menu-link, .menu-link>a):is(:hover, :focus, :active) {
     color: var(--clr-secondary-footer);
     scale: 1.03;
     translate: .5rem;
 }
 
 /* -------------------------------- Media Queries -------------------------------- */
+
+@media (min-width: 720px) {
+
+    .menu-container {
+        padding-inline: 3rem;
+        padding-top: 20rem;
+        flex-direction: row;
+        gap: 8rem;
+    }
+
+    .menu-main-title {
+        font-size: var(--fs-menu-title-mobile);
+    }
+
+    .menu-link {
+        font-size: var(--fs-m)
+    }
+
+    .menu-nav {
+        gap: 9rem;
+    }
+
+    .menu-nav-title {
+        font-size: var(--fs-xs);
+    }
+
+    .menu-link {
+        color: var(--clr-white);
+    }
+
+}
 
 @media (min-width: 1080px) {
 
