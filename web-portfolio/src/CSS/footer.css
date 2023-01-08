@@ -125,6 +125,7 @@
     .footer-back {
         margin: 0;
         padding: 0;
+        align-self: flex-end;
     }
 
     .footer-nav {
