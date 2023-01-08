@@ -121,6 +121,11 @@
         font-size: var(--fs-m);
     }
 
+    .footer-back {
+        margin: 0;
+        padding: 0;
+    }
+
     .footer-nav {
         gap: 10rem;
     }
