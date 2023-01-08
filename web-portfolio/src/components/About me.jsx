@@ -42,10 +42,10 @@ export default function AboutMe({  expandMenu  }) {
 
                             <div className="about-me-info">
 
-                                <h2 className="fs-main-title-mobile fw-bold">I'm Facundo Solé</h2>
+                                <h2 className="about-me-name fw-bold">I'm Facundo Solé</h2>
 
-                                <div className="fs-body-mobile about-me-description">
-                                    <p>I'm currently looking for my first oportunity to work in an environment that will help me progress into a Front-end role.</p>
+                                <div className="about-me-description">
+                                    <p>I'm currently looking for my first opportunity to work in an environment that will help me progress into a Front-end role.</p>
                                     <br />
                                     <p>I'm always eager to learn new things and I strive for writing cleaner code everyday. </p>
                                 </div>

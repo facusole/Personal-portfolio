@@ -87,8 +87,12 @@
         justify-content: space-between;
     }
 
-    :is(.menu-main-title, .menu-link) {
-        font-size: var(--fs-xxl);
+    .menu-main-title {
+        font-size: var(--fs-main-title);
+    }
+
+    .menu-link {
+        font-size: var(--fs-l)
     }
 
     .menu-nav {

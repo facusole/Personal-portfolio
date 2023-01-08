@@ -55,5 +55,6 @@
         margin-left: 0;
         padding-inline: 7rem;
         gap: 9rem;
+        overflow: hidden;
     }
 }

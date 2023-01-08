@@ -21,7 +21,7 @@ export default function Projects({projectsRef}) {
                 </a>
 
                 <a href="https://www-pokeapitestsole-com.onrender.com" target='_blank'>
-                    <ProjectCard icon={<Game size="44"/>} title={'Pokemon randomizer'} subtitle={'HTML, CSS, JavaScript'} description={'You can see the front sprite of a pokemon and his basic in-game stats. '} />
+                    <ProjectCard icon={<Game size="44"/>} title={'Pokemon randomizer'} subtitle={'HTML, CSS, JavaScript'} description={'You can see the front sprite of a pokemon and its basic in-game stats. '} />
                 </a>
 
                 <a href="https://www-personalfinancessole-com.onrender.com" target='_blank'>
