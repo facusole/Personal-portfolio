@@ -1,4 +1,6 @@
 import React from "react"
+import Fade from 'react-reveal/Fade'
+import Zoom from 'react-reveal/Zoom'
 import { useRef } from "react"
 import Introduction from "./Introduction"
 import Divider from "./Divider.jsx"
@@ -18,20 +20,26 @@ function Home() {
 
   return (
     <div className="App">
-      <header>
-        <Introduction scrollToProjects={scrollToProjects}/>
-      </header>
-      <main>
-        <section className="projects padding-block">
-          <Divider subtitle={"What I've been working on"}/>
-          <Projects projectsRef={projectsRef} />
-        </section>
-        <section className="technologies padding-block">
-          <Technologies />
-        </section>
-      </main>
+      <Fade top>
+        <header>
+          <Introduction scrollToProjects={scrollToProjects} />
+        </header>
+        </Fade>
+        <main>
+        <Fade top	>
+          <section className="projects padding-block">
+            <Divider subtitle={"What I've been working on"} />
+            <Projects projectsRef={projectsRef} />
+          </section>
+        </Fade>
+        <Zoom>
+          <section className="technologies padding-block">
+            <Technologies />
+          </section>
+        </Zoom>
+        </main>
       <footer>
-          <Footer scrollToTop={scrollToTop} scrollToProjects={scrollToProjects}/>
+        <Footer scrollToTop={scrollToTop} scrollToProjects={scrollToProjects} />
       </footer>
     </div>
   )

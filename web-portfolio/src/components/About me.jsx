@@ -1,6 +1,7 @@
 import React from "react"
 import { useRef } from "react"
 import { Link } from "react-router-dom"
+import Fade from 'react-reveal/Fade'
 import Divider from "./Divider"
 import Footer from './Footer.jsx'
 import downArrow from '../assets/down-arrow.svg'
@@ -17,6 +18,7 @@ export default function AboutMe({  expandMenu  }) {
 
     return (
         <div>
+            <Fade top>
             <header>
                 <div className="introduction-container mg-inline padding-block">
                     <div className="main-title-container">
@@ -27,7 +29,8 @@ export default function AboutMe({  expandMenu  }) {
                     <div><img src={downArrow} alt="Find out more" className="down-arrow padding-block" onClick={scrollToAboutMe}/></div>
                 </div>
             </header>
-
+            </Fade>
+            <Fade top>
             <main>
                 <section className="about-me-section padding-block mg-inline">
 
@@ -58,6 +61,7 @@ export default function AboutMe({  expandMenu  }) {
 
                 </section>
             </main>
+            </Fade>
             <footer>
                 <Footer scrollToTop2={scrollToTop2}/>
             </footer>
