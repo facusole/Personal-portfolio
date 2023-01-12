@@ -28,8 +28,8 @@ export default function Projects({projectsRef}) {
                     <ProjectCard icon={<WalletMoney size="44"/>} title={'Finances Table'} subtitle={'HTML, CSS, JavaScript, React'} description={'Created as a Diploma project, where I put my focus on the logic part. '} />
                 </a>
 
-                <a href="https://master--facusole.netlify.app" target='_blank'>
-                   <ProjectCard icon={<User size="44"/>} title={'Personal Website'} subtitle={'HTML, CSS, JavaScript'} description={'Consists in create a Personal Website using HTML, CSS and JavaScript.'} /> 
+                <a href="https://facundosole-card.vercel.app" target='_blank'>
+                   <ProjectCard icon={<User size="44"/>} title={'Personal Card Information'} subtitle={'React, Vite'} description={'Personal card with basic information using libraries for animations'} /> 
                 </a>
 
             </div>
