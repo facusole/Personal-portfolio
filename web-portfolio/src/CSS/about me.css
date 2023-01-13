@@ -5,8 +5,6 @@
     object-fit: cover;
     object-position: 50% 25%;
     border-radius: 50%;
-    outline: 3px solid var(--clr-primary-purple);
-    outline-offset: 3px;
     margin: auto;
 }
 
