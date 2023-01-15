@@ -20,6 +20,7 @@
     cursor: pointer;
     transition: .3s ease-in;
     user-select: none;
+    width: 3.5rem;
 }
 
 .down-arrow:is(:hover, :focus) {

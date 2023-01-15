@@ -26,7 +26,7 @@ export default function Technologies() {
                     <TechnologyCard icon={<Html5 size="44" color="#482bff"/>} techName={'HTML5'} />
                     <TechnologyCard icon={<Html3 size="44" color="#482bff"/>} techName={'CSS3'} />
                     <TechnologyCard icon={<JavaScript size="44" color="#482bff"/>} techName={'JavaScript'} />
-                    <TechnologyCard icon={<img src={Icon} alt='react-icon'/>} techName={'React'} />
+                    <TechnologyCard icon={<img src={Icon} alt='react-icon'/>} techName={'React'} style={{"width": "2.75rem"}}/>
                 </div>
             </div>
         </div>
