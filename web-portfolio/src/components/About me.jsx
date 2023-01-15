@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade'
 import Divider from "./Divider"
 import Footer from './Footer.jsx'
 import downArrow from '../assets/down-arrow.svg'
-import Me from '../assets/yo.jpg'
+import Me from '../assets/yo.avif'
 
 import '../CSS/introduction.css'
 import '../CSS/about me.css'
