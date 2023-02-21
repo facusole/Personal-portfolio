@@ -11,4 +11,4 @@ It's a SPA with react-router as my Routing library and react-reveal as my animat
 ## Credits
 
 The design was made by [Camila Russo](be.net/russocamila).<br/>
-The code was written entirely by mr
+The code was written entirely by me.
