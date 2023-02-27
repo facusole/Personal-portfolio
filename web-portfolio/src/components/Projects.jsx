@@ -24,8 +24,8 @@ export default function Projects({projectsRef}) {
                     <ProjectCard icon={<Game size="44"/>} title={'Pokemon randomizer'} subtitle={'HTML, CSS, JavaScript'} description={'You can see the front sprite of a pokemon and its basic in-game stats. '} />
                 </a>
 
-                <a href="https://www-personalfinancessole-com.onrender.com" target='_blank'>
-                    <ProjectCard icon={<WalletMoney size="44"/>} title={'Finances Table'} subtitle={'HTML, CSS, JavaScript, React'} description={'Created as a Diploma project, where I put my focus on the logic part. '} />
+                <a href="https://finances-table.vercel.app" target='_blank'>
+                    <ProjectCard icon={<WalletMoney size="44"/>} title={'Finances Table'} subtitle={'HTML, CSS, JavaScript, React'} description={'Table where you can add entries to keep a track of your incomes and your expenses.'} />
                 </a>
 
                 <a href="https://facundosole-card.vercel.app" target='_blank'>
