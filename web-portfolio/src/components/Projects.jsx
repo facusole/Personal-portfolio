@@ -25,7 +25,7 @@ export default function Projects({projectsRef}) {
                 </a>
 
                 <a href="https://finances-table.vercel.app" target='_blank'>
-                    <ProjectCard icon={<WalletMoney size="44"/>} title={'Finances Table'} subtitle={'HTML, CSS, JavaScript, React'} description={'Table where you can add entries to keep a track of your incomes and your expenses.'} />
+                    <ProjectCard icon={<WalletMoney size="44"/>} title={'Finances Table'} subtitle={'HTML, CSS, JavaScript, React'} description={'Table where you can keep a track of your incomes and your expenses.'} />
                 </a>
 
                 <a href="https://facundosole-card.vercel.app" target='_blank'>
