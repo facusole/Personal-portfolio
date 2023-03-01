@@ -16,8 +16,8 @@ export default function Projects({projectsRef}) {
 
             <div className="projects-container">
 
-                <a href="https://sole-password-generator.netlify.app" target="_blank">
-                    <ProjectCard icon={<Key size="44"/>} title={'Password Generator'} subtitle={'HTML, CSS, JavaScript'} description={'Simple password generator, which generates a password of about 10 to 20 characters long.'} />
+                <a href="https://password-gen-theta.vercel.app" target="_blank">
+                    <ProjectCard icon={<Key size="44"/>} title={'Password Generator'} subtitle={'HTML, CSS, TypeScript'} description={'Simple password generator, which generates a password of about 10 to 20 characters long.'} />
                 </a>
 
                 <a href="https://www-pokeapitestsole-com.onrender.com" target='_blank'>
