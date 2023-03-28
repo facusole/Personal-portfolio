@@ -20,8 +20,8 @@ export default function Projects({projectsRef}) {
                     <ProjectCard icon={<Key size="44"/>} title={'Password Generator'} subtitle={'HTML, CSS, TypeScript'} description={'Simple password generator, which generates a password of about 10 to 20 characters long.'} />
                 </a>
 
-                <a href="https://www-pokeapitestsole-com.onrender.com" target='_blank'>
-                    <ProjectCard icon={<Game size="44"/>} title={'Pokemon randomizer'} subtitle={'HTML, CSS, JavaScript'} description={'You can see the front sprite of a pokemon and its basic in-game stats. '} />
+                <a href="https://pokedex-liard-sigma.vercel.app" target='_blank'>
+                    <ProjectCard icon={<Game size="44"/>} title={'Pokedex!'} subtitle={'HTML, Tailwind, React'} description={'SPA Pokedex from 1st gen to 5th gen. Functional searchbar and responsive design.'} />
                 </a>
 
                 <a href="https://finances-table.vercel.app" target='_blank'>
