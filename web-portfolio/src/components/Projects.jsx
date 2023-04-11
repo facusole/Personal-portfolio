@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import { Key, WalletMoney, User, Game, ArrowRight } from 'iconsax-react';
+import { Key, WalletMoney, Shop, Game, ArrowRight } from 'iconsax-react';
 
 
 import '../CSS/projects.css'
@@ -16,21 +16,23 @@ export default function Projects({projectsRef}) {
 
             <div className="projects-container">
 
-                <a href="https://password-gen-theta.vercel.app" target="_blank">
-                    <ProjectCard icon={<Key size="44"/>} title={'Password Generator'} subtitle={'HTML, CSS, TypeScript'} description={'Simple password generator, which generates a password of about 10 to 20 characters long.'} />
+                <a href="https://pluma-de-papel.vercel.app" target='_blank'>
+                   <ProjectCard icon={<Shop size="44"/>} title={'E-commerce'} subtitle={'React, CSS, Firebase'} description={'With firebase as backend data base, full flow from searching to checkout.'} /> 
                 </a>
 
                 <a href="https://pokedex-liard-sigma.vercel.app" target='_blank'>
                     <ProjectCard icon={<Game size="44"/>} title={'Pokedex!'} subtitle={'HTML, Tailwind, React'} description={'SPA Pokedex from 1st gen to 5th gen. Functional searchbar and responsive design.'} />
                 </a>
 
+                <a href="https://password-gen-theta.vercel.app" target="_blank">
+                    <ProjectCard icon={<Key size="44"/>} title={'Password Generator'} subtitle={'HTML, CSS, TypeScript'} description={'Simple password generator, which generates a password of about 10 to 20 characters long.'} />
+                </a>
+
+
                 <a href="https://finances-table.vercel.app" target='_blank'>
                     <ProjectCard icon={<WalletMoney size="44"/>} title={'Finances Table'} subtitle={'HTML, CSS, JavaScript, React'} description={'Table where you can keep a track of your incomes and your expenses.'} />
                 </a>
 
-                <a href="https://facundosole-card.vercel.app" target='_blank'>
-                   <ProjectCard icon={<User size="44"/>} title={'Personal Card Information'} subtitle={'React, Vite'} description={'Personal card with basic information using libraries for animations'} /> 
-                </a>
 
             </div>
 
